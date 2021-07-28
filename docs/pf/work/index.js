@@ -2,8 +2,7 @@ $(function () {
 
   function Intro_AnimationInit() {
     $(document).ready(function(){
-      $(".D-main_intro").fadeIn(1700);
-      $(".D-main_introwrite").fadeIn(1700);
+      $(".D-main_introwrite > img").fadeIn(1500);
     });
   }
 
