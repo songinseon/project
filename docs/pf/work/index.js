@@ -241,7 +241,7 @@ $(function () {
     });
   }
 
-  for (var i = 0; i < 17; i++)
+  for (var i = 0; i < 19; i++)
   {
     if(i%2==0) {
       EvenStars_RotateInit(i);
