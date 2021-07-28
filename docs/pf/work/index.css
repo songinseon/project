@@ -179,8 +179,7 @@
 /* 부가적이미지 */
 
 .D-main_introwrite {
-  top:1%;
-  width:75%;
+  top:1.1%;
 }
 
 .D-main_introwrite > img {
@@ -234,7 +233,7 @@
 
 .D-main-2 {
   top:78%;
-  left:14.5%;
+  left:15%;
   width:19%;
 }
 
