@@ -199,8 +199,8 @@
 
 .D-alarm {
   top:52.4%;
-  left:26.5%;
-  width:28.5%;
+  left:25.5%;
+  width:25%;
 }
 
 .D-simple {
@@ -226,10 +226,27 @@
   opacity: 80%;
 }
 
+.D-choose {
+  top:71%;
+  left:25%;
+  width:20%;
+}
+
 .D-main-2 {
   top:78%;
   left:14.5%;
   width:19%;
+}
+
+.D-main_notice {
+  top:79.2%;
+  left:75%;
+
+}
+
+.D-main_schedule {
+  top:81.5%;
+  left:75%;
 }
 
 .D-sharingmain {

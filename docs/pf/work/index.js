@@ -2,11 +2,11 @@ $(function () {
 
   function Intro_AnimationInit() {
     $(document).ready(function(){
-      $(".D-main_introwrite > img").fadeIn(1500);
+      $(".D-main_introwrite > img").fadeIn(1700);
     });
   }
 
-  function Alarm_AnimationInit() {
+  function Play_AnimationInit() {
 
     gsap.fromTo('.D-alarm', {
       opacity: 0,
@@ -136,19 +136,33 @@ $(function () {
       duration: 1
     });
 
-    // gsap.fromTo('.D-explain', {
-    //   opacity: 0,
-    //   x: 50,
-    // }, {
-    //   opacity: 1,
-    //   x: 0,
-    //   scrollTrigger: {
-    //     trigger: '.star-8',
-    //     start: '0% 0%',
-    //     end: '100% 30%'
-    //   },
-    //   duration: 1
-    // });
+    gsap.fromTo('.D-main_notice , .D-main_schedule', {
+      opacity: 0,
+      x: -60,
+    }, {
+      opacity: 1,
+      x: 0,
+      scrollTrigger: {
+        trigger: '.D-h3',
+        start: '0% 0%',
+        end: '100% 30%'
+      },
+      duration: 1
+    });
+
+    gsap.fromTo('.D-choose', {
+      opacity: 0,
+      y: 50,
+    }, {
+      opacity: 1,
+      y: 0,
+      scrollTrigger: {
+        trigger: '.star-8',
+        start: '0% 0%',
+        end: '100% 30%'
+      },
+      duration: 1
+    });
 
     gsap.fromTo('.D-sharing', {
       opacity: 0,
@@ -239,5 +253,5 @@ $(function () {
 
 
   Intro_AnimationInit()
-  Alarm_AnimationInit()
+  Play_AnimationInit()
 });
