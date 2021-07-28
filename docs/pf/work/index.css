@@ -179,12 +179,12 @@
 /* 부가적이미지 */
 
 .D-main_introwrite {
-  top:0.5%;
+  top:0.8%;
+  width:75%;
 }
 
 .D-main_introwrite > img {
   display: none;
-  width:75%;
 }
 
 .D-story {
@@ -200,7 +200,7 @@
 .D-alarm {
   top:52.4%;
   left:25%;
-  width:28%;
+  width:28.5%;
 }
 
 .D-simple {
