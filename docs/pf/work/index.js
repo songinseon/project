@@ -166,10 +166,10 @@ $(function () {
 
     gsap.fromTo('.D-choose', {
       opacity: 0,
-      y: 50,
+      x: 50,
     }, {
       opacity: 1,
-      y: 0,
+      x: 0,
       scrollTrigger: {
         trigger: '.star-8',
         start: '0% 0%',
