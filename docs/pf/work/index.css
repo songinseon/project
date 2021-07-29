@@ -238,6 +238,16 @@
   opacity: 80%;
 }
 
+.D-diary-pallet {
+  top:65.5%;
+  left:78%;
+  width:18%;
+}
+
+.D-diary-pallet > img {
+  opacity: 90%;
+}
+
 .D-choose {
   top:71%;
   left:28%;
@@ -251,14 +261,14 @@
 }
 
 .D-main_notice {
-  top:79.2%;
+  top:78.75%;
   left:75%;
   width:15%;
 }
 
 .D-main_schedule {
-  top:81.5%;
-  left:75%;
+  top:81.3%;
+  left:75.5%;
   width:15%;
 }
 

@@ -122,6 +122,20 @@ $(function () {
       duration: 1.8
     });
 
+    gsap.fromTo('.D-diary-pallet', {
+      opacity: 0,
+      y: 50,
+    }, {
+      opacity: 1,
+      y: 0,
+      scrollTrigger: {
+        trigger: '.D-h2',
+        start: '0% 0%',
+        end: '100% 30%'
+      },
+      duration: 1.8
+    });
+
     gsap.fromTo('.D-main-2', {
       opacity: 0,
       x: 50,
