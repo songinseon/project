@@ -1,3 +1,7 @@
+.div-wrap {
+  max-width: 1920px;
+}
+
 /* 별 커스텀 */
 .star-1 {
   top: 0.3%;
@@ -231,7 +235,7 @@
 .D-diary-2 {
   top:63%;
   left:56.6%;
-  width:17%;
+  width:17.6%;
 }
 
 .D-diary-2 > img {
